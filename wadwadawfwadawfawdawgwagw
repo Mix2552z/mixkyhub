@@ -3,5 +3,5 @@ local check = "https://raw.githubusercontent.com/Mix2552z/mixkyhub/main/check.ph
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mix2552z/mixkyhub/main/script.lua"))()
 else
-game.Players.LocalPlayer:Kick("Invalid Key! Please Rejoin And Try Again.")
+game.Players.LocalPlayer:Kick("Key")
 end
